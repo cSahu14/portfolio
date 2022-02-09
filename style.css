@@ -192,6 +192,20 @@ button:active {
   color: #8f8f8f;
 }
 
+.skills {
+  background-color: #fff;
+  padding: 2% 10% 0px 10%;
+  height: 300px;
+}
+
+.skill-text {
+  font-family: calibri;
+  font-weight: bold;
+  color: #1d1c1c;
+  font-size: 30px;
+  line-height: 0px;
+}
+
 .services {
   height: 1050px;
   background-color: #ffffff;
