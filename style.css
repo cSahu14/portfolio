@@ -4,7 +4,7 @@
 
 body {
   background-color: #f6f5f5;
-  font-family: "poppins", sans-serif;
+  font-family: calibri;
   margin: 0px;
   padding: 0px;
 }
@@ -18,6 +18,7 @@ a {
 }
 
 section {
+  font-family: calibri;
   width: 100%;
   height: 95vh;
   background-image: url("https://i.ibb.co/4j1kDH5/bg.png");
@@ -27,6 +28,7 @@ section {
   position: relative;
 }
 nav {
+  font-family: calibri;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +46,7 @@ nav ul {
 
 nav ul li a {
   margin: 30px;
-  font-family: myriad pro regular;
+
   color: #505050;
   font-size: 18px;
   font-weight: 700;
@@ -195,11 +197,11 @@ button:active {
 .skills {
   background-color: #fff;
   padding: 2% 10% 0px 10%;
-  height: 400px;
+  height: 600px;
 }
 
 .skill-imgs {
-  height: 400px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,9 +217,9 @@ button:active {
 }
 
 .services {
-  /* height: 1050px; */
   background-color: #ffffff;
   padding: 2% 10% 0px 10%;
+  margin-bottom: 40px;
 }
 .services-text p:nth-child(1) {
   font-family: calibri;
@@ -245,6 +247,7 @@ button:active {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .box-1,
