@@ -242,7 +242,7 @@ button:active {
 .box-1,
 .box-5 {
   width: 95%;
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -254,7 +254,7 @@ button:active {
 }
 
 .box-container img {
-  height: 370px;
+  height: 500px;
   width: 97%;
   margin: 1px 0 0 0;
 }
@@ -291,11 +291,7 @@ button:active {
 } */
 
 .box-1 p:nth-child(2),
-.box-2 p:nth-child(2),
-.box-3 p:nth-child(2),
-.box-4 p:nth-child(2),
-.box-5 p:nth-child(2),
-.box-6 p:nth-child(2) {
+.box-5 p:nth-child(2) {
   color: #8f8f8f;
   font-family: calibri;
   font-size: 23px;
@@ -303,15 +299,11 @@ button:active {
 }
 
 .box-1 p:nth-child(3),
-.box-2 p:nth-child(3),
-.box-3 p:nth-child(3),
-.box-4 p:nth-child(3),
-.box-5 p:nth-child(3),
-.box-6 p:nth-child(3) {
+.box-5 p:nth-child(3) {
   font-family: calibri;
   color: #8f8f8f;
   text-align: center;
-  width: 230px;
+  width: 330px;
   margin: 0px 0px 15px 0px;
 }
 
