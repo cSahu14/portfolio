@@ -195,7 +195,15 @@ button:active {
 .skills {
   background-color: #fff;
   padding: 2% 10% 0px 10%;
-  height: 300px;
+  height: 400px;
+}
+
+.skill-imgs {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .skill-text {
@@ -259,10 +267,10 @@ button:active {
   margin: 1px 0 0 0;
 }
 
-.box-container img:hover {
+/* .box-container img:hover {
   transition: 1s;
   transform: scale(1.2);
-}
+} */
 
 .box-1 {
   background: rgba(0, 0, 0, 0.02);
@@ -331,6 +339,11 @@ button:active {
 
 .box-container a:hover {
   color: #8f8f8f;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
 }
 
 .contact-me {
