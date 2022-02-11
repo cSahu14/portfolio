@@ -37,6 +37,9 @@ nav {
   background-color: #ffffff;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
+  /* position: fixed; */
+  /* position: relative; */
+  /* position: absolute; */
 }
 nav ul {
   display: flex;
@@ -215,12 +218,25 @@ button:active {
   height: 601px;
 }
 
+.skill-imgs-div {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skill-imgs-p-tag {
+  font-family: calibri;
+  font-weight: bold;
+  text-align: center;
+}
+
 .skill-imgs {
-  height: 601px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  height: 301px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  /* align-content: center; */
+  /* justify-content: center; */
+  /* margin: auto; */
 }
 
 .skill-text {
@@ -469,7 +485,9 @@ footer {
   }
   .about-container {
     width: 90%;
+    height: auto;
     border-radius: 10px;
+    padding-bottom: 10px;
   }
   .about-container img {
     height: 200px;
@@ -478,15 +496,15 @@ footer {
     width: 400px;
   }
   .about-text p:nth-child(1) {
-    font-size: 20px;
+    font-size: 50px;
   }
   .about-text p:nth-child(2) {
-    font-size: 10px;
+    font-size: 30px;
   }
 
   .about-text p:nth-child(3),
   .about-text p:nth-child(4) {
-    font-size: 14px;
+    font-size: 30px;
   }
   .services {
     padding: 2% 5% 0px 5%;
@@ -605,11 +623,13 @@ footer {
     height: auto;
     padding: 30px 0px;
     align-items: center;
+    font-size: 30px;
   }
   .about-text {
     width: 90%;
     text-align: center;
   }
+
   .services-text {
     width: 100%;
   }
