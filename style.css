@@ -70,17 +70,23 @@ nav ul li a {
   clear: both;
 }
 
+.model {
+  height: 300px;
+  position: absolute;
+  bottom: 30%;
+  left: 82%;
+  transform: translateX(-75%);
+  border-radius: 50%;
+}
+
+/* .profile-img {
+  width: 300px;
+} */
+
 .about-me {
   margin-bottom: 20px;
 }
 
-.model {
-  height: 450px;
-  position: absolute;
-  bottom: 40px;
-  left: 75%;
-  transform: translateX(-75%);
-}
 .text-container p:nth-child(1) {
   font-family: calibri;
   font-weight: bold;
