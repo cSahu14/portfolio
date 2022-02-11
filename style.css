@@ -19,7 +19,7 @@ a {
 }
 
 section {
-  font-family: calibri sans-serif;
+  font-family: calibri;
   width: 100%;
   height: 95vh;
   background-image: url("https://i.ibb.co/4j1kDH5/bg.png");
@@ -29,7 +29,7 @@ section {
   position: relative;
 }
 nav {
-  font-family: calibri sans-serif;
+  font-family: calibri;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ nav ul li a {
   font-weight: 700;
 }
 .logo {
-  font-family: RoadTest;
+  font-family: calibri;
   color: #000000;
   font-size: 22px;
   font-weight: 1000;
@@ -65,6 +65,10 @@ nav ul li a {
 
 .clearfix {
   clear: both;
+}
+
+.about-me {
+  margin-bottom: 20px;
 }
 
 .model {
@@ -88,7 +92,7 @@ nav ul li a {
   font-size: 60px;
 }
 .text-container p:nth-child(3) {
-  font-family: myriad pro regular;
+  font-family: calibri;
   color: #403e3e;
   font-size: 30px;
   line-height: 30px;
@@ -135,32 +139,42 @@ button:active {
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-direction: column;
   margin-right: auto;
   margin-left: auto;
   /* margin: -7% auto 20px auto; */
   position: relative;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
-.about-container img {
+/* .about-container img {
   height: 250px;
-}
+} */
 .about-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 500px;
+  height: 70%;
 }
 .about-text p:nth-child(1) {
   color: #403e3e;
-  font-family: myriad pro;
+  font-family: calibri;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 33px;
   line-height: 0px;
+  margin-bottom: 20px;
 }
 .about-text p:nth-child(2) {
   color: #3e3d3d;
   font-size: 13px;
-  font-family: myriad pro;
+  font-family: calibri;
   font-weight: bold;
   line-height: 5px;
+  margin-top: 20px;
 }
 .about-text p:nth-child(3),
 .about-text p:nth-child(4) {
@@ -253,7 +267,7 @@ button:active {
 .box-1,
 .box-5 {
   width: 95%;
-  height: 700px;
+  height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -283,24 +297,6 @@ button:active {
   background: rgba(0, 0, 0, 0.02);
 }
 
-/* .box-1 span,
-.box-2 span,
-.box-3 span,
-.box-4 span,
-.box-5 span,
-.box-6 span {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #000000;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: calibri;
-  font-weight: bold;
-} */
-
 .box-1 p:nth-child(2),
 .box-5 p:nth-child(2) {
   color: #8f8f8f;
@@ -320,7 +316,7 @@ button:active {
 
 .links {
   display: flex;
-  width: 300px;
+  width: 400px;
   justify-content: space-around;
 }
 
@@ -347,6 +343,10 @@ button:active {
 .tech-stack {
   display: flex;
   flex-direction: row;
+}
+
+.tech {
+  font-family: calibri;
 }
 
 footer p {
