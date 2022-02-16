@@ -427,7 +427,16 @@ footer {
   font-size: 12px;
   position: absolute;
   left: 50%;
-  bottom: 10px;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+
+.customize {
+  color: #565555;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
   transform: translateX(-50%);
 }
 .social {
