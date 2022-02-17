@@ -44,8 +44,7 @@ nav {
   /* position: relative; */
   /* position: absolute; */
 }
-nav a {
-}
+
 nav ul {
   width: 60%;
   display: flex;
@@ -262,7 +261,8 @@ button:active {
 
 .services {
   background-color: #ffffff;
-  padding: 2% 10% 0px 10%;
+  padding: 2% 5% 0px 10%;
+  text-align: center;
 }
 .services-text p:nth-child(1) {
   font-family: calibri;
