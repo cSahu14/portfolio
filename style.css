@@ -252,6 +252,7 @@ button:active {
 }
 
 .skill-text {
+  text-align: center;
   font-family: calibri;
   font-weight: bold;
   color: #1d1c1c;
@@ -282,6 +283,7 @@ button:active {
   color: #7e7d7d;
 }
 .services-text {
+  text-align: center;
   width: 95%;
   margin: 50px 0px;
 }
