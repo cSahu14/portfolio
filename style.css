@@ -314,6 +314,14 @@ button:active {
   margin: 1px 0 0 0;
 }
 
+.box-1 {
+  height: 850px;
+}
+
+.box-1 img {
+  height: 600px;
+}
+
 /* .box-container img:hover {
   transition: 1s;
   transform: scale(1.2);
