@@ -226,12 +226,23 @@ button:active {
 .skills {
   background-color: #fff;
   padding: 2% 10% 0px 10%;
-  height: 601px;
+  height: 750px;
 }
 
 .skill-imgs-div {
   margin-top: 50px;
   text-align: center;
+}
+
+.text-align {
+align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-next {
+  width: 100px;
+  height: 100px;
 }
 
 .skill-imgs-p-tag {
